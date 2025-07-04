@@ -31,4 +31,4 @@ jobs:
           WP_PASS: ${{ secrets.WP_PASS }}
           WP_PAGE_ID: ${{ secrets.WP_PAGE_ID }}
         run: |
-          python script_kamu.py
+          python run.py
